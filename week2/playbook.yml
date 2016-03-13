@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: ubuntu
+  become: yes
+
+  roles:
+    - webmin
+    - telusdigital.ntp
+    - users
