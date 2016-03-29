@@ -1,0 +1,30 @@
+.total-divider-container {
+  position:relative;
+  width:100%
+}
+.total-divider {
+  position: absolute;
+  height: 20px;
+  z-index: 999;
+  border-right: 3px solid #ffc928;
+}
+
+.total-annotation-container {
+  position:absolute;
+  top:20px;
+}
+.total-annotation {
+  position:absolute;
+  width:70px;
+  left: -35px;
+  line-height:1.2em;
+}
+
+.progress {
+  background-color: $grey2;
+}
+
+.dropdown-menu {
+  max-height: 150px;
+  overflow-y: scroll;
+}

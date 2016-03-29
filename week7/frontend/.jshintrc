@@ -1,0 +1,16 @@
+{
+  "browser": true,
+  "node": true,
+  "undef": true,
+  "unused": true,
+  "esnext": true,
+  "globals": {
+    "describe": true,
+    "context": true,
+    "it": true,
+    "before": true,
+    "beforeEach": true,
+    "after": true,
+    "afterEach": true
+  }
+}

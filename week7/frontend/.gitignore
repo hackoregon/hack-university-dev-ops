@@ -1,0 +1,8 @@
+# system
+.DS_Store
+
+# js
+/node_modules
+npm-debug.log*
+public/js/oregon*
+public/css/*

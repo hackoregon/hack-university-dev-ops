@@ -1,0 +1,93 @@
+body {
+  background-color: $background-color;
+  color: $text-color;
+// font-size: $base-font-size;
+// font-family: $base-font-family;
+//  font-weight: $base-font-weight;
+  line-height: 1.8;
+}
+
+.component {
+    text-align: center;
+}
+
+.label-primary {
+  background-color: #7cd1c5;
+}
+
+.dropdown-menu > li > a {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  z-index:9999;
+}
+
+small {
+  text-align: left;
+  line-height: 1.75em;
+  color: #777;
+}
+
+.icon-height {
+  height:64px;
+}
+
+// under 100% self-sufficient
+.under {
+  background-color: $under;
+}
+
+// under 100% self-sufficient
+.sufficient {
+  background-color: $sufficient;
+}
+
+// above 100% self-sufficient
+.over {
+  background-color: $above;
+}
+
+.under .sufficient .over {
+  color: $text-color;
+}
+
+.jumbotron {
+  padding-top:15px;
+  margin-top:20px;
+
+  padding-bottom: 10px;
+
+  h1 {
+    font-size:2em;
+  }
+}
+
+.col-md-12.component.wage-slider {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-md-12 .text-center {
+  margin: 5% 0;
+}
+
+.col-md-6.component.map, .col-md-6.component.households {
+  padding: 0 2.5%;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+p.data-hint {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+p.data-hint.add-margin{
+  padding-top: 34px;
+}
+
