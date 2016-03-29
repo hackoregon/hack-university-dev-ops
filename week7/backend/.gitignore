@@ -1,0 +1,7 @@
+*.pyc
+app.db.
+env
+.vagrant
+dl-repo/tmp*
+config.py
+secrets.cfg
