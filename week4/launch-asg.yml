@@ -7,7 +7,7 @@
   vars:
     region: "us-west-2"
     asg_name: "myasg"
-    keypair: "xaas-or"
+    keypair: "hoECScluster"
     ami: "ami-9abea4fb"
 
   tasks:
